@@ -76,6 +76,11 @@ class Populacja:
             s += str(p) + "\n"
         return s
     
+    
+    def zapisz_do_pliku(self, nazwa_pliku):
+        print("TODO: w tym miejscu powinno sie zapisac do pliku {}".format(nazwa_pliku))
+        
+    
     def ruch(self):
         """ Wykonaj ruch przesuwając każdego z pacjentów"""
         for p in self._pacjenci:
